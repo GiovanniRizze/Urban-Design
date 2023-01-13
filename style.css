@@ -1,0 +1,162 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(90deg, #170125 0%, #011625 0.01%, #26255E 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 38px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 48px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Metropolis', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 32px;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 16px;
+    background: rgba(137, 62, 255, 0.3);
+    backdrop-filter: blur(34px);
+    border-radius: 100px;
+    background-color: #893EFF 43%;
+}
+
+.cabecalho-menu-item:hover {
+    background-color: rgba(73, 30, 140, 0.43);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Metropolis';
+    font-weight: 700;
+    font-size: 74px;
+    display: flex;
+    letter-spacing: -0.055em;
+    color: #FFFFFF;
+    position: absolute;
+    width: 904px;
+    height: 207px;
+    left: 103px;
+    top: calc(50% - 207px/2 - 18.5px);
+}
+
+.conteudo-principal-escrito-subtitulo {
+    display: flex;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    position: absolute;
+    width: 781px;
+    height: 64px;
+    left: 103px;
+    top: calc(50% - 64px/2 + 75px);
+}
+
+.conteudo-principal-botao {
+    background: rgba(137, 62, 255, 0.3);
+    backdrop-filter: blur(34px);
+    background-color: #893EFF 43%;
+    border-radius: 100px;
+    width: 400px;
+    height: 64px;
+    left: 100px;
+    border: none;
+    font-family: 'Metropolis';
+    font-size: 32px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 60%;
+
+}
+
+.conteudo-principal-botao:hover {
+    background-color: rgba(73, 30, 140, 0.43);
+}
+
+/*.conteudo-principal-foguete {  
+    position: absolute;
+    width: 200.62px;
+    height: 646.32px;
+    left: 420.02px;
+    top: 350px;    
+
+}
+
+.conteudo-principal-nuvem {
+    position: absolute;
+    width: 160px;
+    height: 100px;
+    left: 330px;
+    top: 720px;
+} */
+
+.conteudo-principal-aviao {
+    position: absolute;
+    left: 1400px;
+    right: 77.11%;
+    top: 200px;
+    bottom: 26.27%;
+}
+
+.conteudo-principal-computador {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 1200px;
+    top: 300px;
+    
+}
+
+.conteudo-principal-celular {
+    position: absolute;
+    left: 1100px;
+    right: 77.11%;
+    top: 600px;
+    bottom: 26.27%;
+    
+}
+
+.rodape {
+    padding: 0px; 
+}
+
+.rodape-imagem {
+    position: absolute;
+    width: 608px;
+    left: 100px;
+    top: 870px;
+}
