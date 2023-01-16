@@ -17,12 +17,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 38px;
+    padding: 40px;
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 48px;
+    gap: 900px;
 }
 
 .cabecalho-menu-item{
@@ -159,4 +159,11 @@ body {
     width: 608px;
     left: 100px;
     top: 870px;
+}
+
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
 }
